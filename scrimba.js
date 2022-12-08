@@ -100,7 +100,6 @@ let saveEl = document.getElementById("save-el")
  function save() {
     let saved = count + " - " 
     saveEl.textContent += saved
-     console.log(count)
      countEl.textContent = 0
      count = 0
     }
